@@ -27,6 +27,13 @@ exports.main = async (context, sendResponse) => {
             label: 'Example input field',
             initialValue: 'Default value of the input field',
           },
+           {
+            type: 'input',
+            name: 'example_input2',
+            inputType: 'text',
+            label: 'Example input field2',
+            initialValue: 'Default value of the input field',
+          },
           {
             type: 'button',
             text: 'Submit form',
